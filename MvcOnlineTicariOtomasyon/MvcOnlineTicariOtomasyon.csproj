@@ -135,6 +135,7 @@
     <Compile Include="Controllers\PersonelController.cs" />
     <Compile Include="Controllers\SatisController.cs" />
     <Compile Include="Controllers\UrunController.cs" />
+    <Compile Include="Controllers\IstatistikController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -330,6 +331,40 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="metropanel\web\css\bootstrap.css" />
+    <Content Include="metropanel\web\css\clndr.css" />
+    <Content Include="metropanel\web\css\jqvmap.css" />
+    <Content Include="metropanel\web\css\nav.css" />
+    <Content Include="metropanel\web\css\style.css" />
+    <Content Include="metropanel\web\images\ar2.png" />
+    <Content Include="metropanel\web\images\arrows.png" />
+    <Content Include="metropanel\web\images\avatar.jpg" />
+    <Content Include="metropanel\web\images\avatar1.jpg" />
+    <Content Include="metropanel\web\images\avatar2.jpg" />
+    <Content Include="metropanel\web\images\img-sprite.png" />
+    <Content Include="metropanel\web\images\into.png" />
+    <Content Include="metropanel\web\images\into1.png" />
+    <Content Include="metropanel\web\images\logo.png" />
+    <Content Include="metropanel\web\images\pp.jpg" />
+    <Content Include="metropanel\web\images\pp0.jpg" />
+    <Content Include="metropanel\web\images\pp01.jpg" />
+    <Content Include="metropanel\web\images\settings.png" />
+    <Content Include="metropanel\web\images\tick-mark.png" />
+    <Content Include="metropanel\web\index.html" />
+    <Content Include="metropanel\web\js\Chart1.js" />
+    <Content Include="metropanel\web\js\clndr.js" />
+    <Content Include="metropanel\web\js\easyResponsiveTabs.js" />
+    <Content Include="metropanel\web\js\jquery.easydropdown.js" />
+    <Content Include="metropanel\web\js\jquery.min.js" />
+    <Content Include="metropanel\web\js\jquery.nicescroll.js" />
+    <Content Include="metropanel\web\js\jquery.vmap.js" />
+    <Content Include="metropanel\web\js\jquery.vmap.sampledata.js" />
+    <Content Include="metropanel\web\js\jquery.vmap.world.js" />
+    <Content Include="metropanel\web\js\main.js" />
+    <Content Include="metropanel\web\js\moment-2.2.1.js" />
+    <Content Include="metropanel\web\js\site.js" />
+    <Content Include="metropanel\web\js\underscore-min.js" />
+    <Content Include="metropanel\web\w3layouts-License.txt" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\DataTables\autoFill.bootstrap.js" />
@@ -548,6 +583,7 @@
     <Content Include="Views\Fatura\FaturaGetir.cshtml" />
     <Content Include="Views\Fatura\FaturaDetay.cshtml" />
     <Content Include="Views\Fatura\YeniKalem.cshtml" />
+    <Content Include="Views\Istatistik\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
