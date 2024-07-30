@@ -21,6 +21,7 @@ namespace MvcOnlineTicariOtomasyon.Models.Siniflar
         public string FaturaSıraNo { get; set; }
         public DateTime Tarih { get; set; }
 
+        [Display(Name = "Vergi Dairesi")]
         [Column(TypeName = "Varchar")]
         [StringLength(60)]
         public string VergiDairesi { get; set; }
@@ -29,10 +30,12 @@ namespace MvcOnlineTicariOtomasyon.Models.Siniflar
         [StringLength(5)]
         public string Saat { get; set; }
 
+        [Display(Name = "Teslim Eden")]
         [Column(TypeName = "Varchar")]
         [StringLength(30)]
         public string TeslimEden { get; set; }
 
+        [Display(Name = "Teslim Alan")]
         [Column(TypeName = "Varchar")]
         [StringLength(30)]
         public string TeslimAlan { get; set; }

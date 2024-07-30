@@ -7,17 +7,18 @@ using System.Web;
 
 namespace MvcOnlineTicariOtomasyon.Models.Siniflar
 {
-    public class Departman
+    public class Yapilacak
     {
         [Key]
-        public int DepartmanID { get; set; }
+        public int YapilacakID { get; set; }
 
-        [Display(Name = "Departman Adı")]
         [Column(TypeName = "Varchar")]
-        [StringLength(30)]
-        public string DepartmanAd { get; set; }
+        [StringLength(100)]
+        public string Baslik { get; set; }
 
+        [Column(TypeName = "bit")]
         public bool Durum { get; set; }
-        public ICollection<Personel> Personels { get; set; }
+
+
     }
 }
