@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using MvcOnlineTicariOtomasyon.Models.Siniflar;
+using PagedList;
 
 namespace MvcOnlineTicariOtomasyon.Controllers
 {
@@ -61,6 +62,12 @@ namespace MvcOnlineTicariOtomasyon.Controllers
             prsn.Departmanid = p.Departmanid;
             c.SaveChanges();
             return RedirectToAction("Index");
+        }
+
+        public ActionResult PersonelListe()
+        {
+            var sorgu = c.Personels.ToList();
+            return View(sorgu);
         }
     }
 }
